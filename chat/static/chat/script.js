@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded', () => {    const form = document.getElementById('main-chat-form');    form.addEventListener('submit', async (event) => {        event.preventDefault();        console.log("表单提交，准备连接后端...");        // 后续将用 fetch 提交并刷新 chat-window    });});
