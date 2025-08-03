@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77e2c3d1-4936-42c1-bc44-208694e935a0" name="Changes" comment="prompt list real-time update">
-      <change afterPath="$PROJECT_DIR$/chat/chatlogic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chat/management/commands/init_prompts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/static/chat/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/chat/static/chat/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/templates/chat/main_chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/chat/templates/chat/main_chat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="77e2c3d1-4936-42c1-bc44-208694e935a0" name="Changes" comment="send to api func" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754245829583</updated>
-      <workItem from="1754245830522" duration="9965000" />
+      <workItem from="1754245830522" duration="10692000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -161,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754250994588</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="send to api func">
+      <option name="closed" value="true" />
+      <created>1754256256611</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1754256256611</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +182,7 @@
     <MESSAGE value="html framework" />
     <MESSAGE value="main window and prompt list" />
     <MESSAGE value="prompt list real-time update" />
-    <option name="LAST_COMMIT_MESSAGE" value="prompt list real-time update" />
+    <MESSAGE value="send to api func" />
+    <option name="LAST_COMMIT_MESSAGE" value="send to api func" />
   </component>
 </project>
