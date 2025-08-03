@@ -1,1 +1,1 @@
-from django.urls import pathfrom .views import chat_pageurlpatterns = [    path('', chat_page, name='chat_page'),]
+from django.urls import pathfrom .views import chat_page, save_prompturlpatterns = [    path('', chat_page, name='chat_page'),    path('/prompt/save/',save_prompt, name='save_prompt'),]
